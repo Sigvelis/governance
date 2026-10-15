@@ -1,0 +1,23 @@
+teams:
+  - name: lf-staff
+    maintainers:
+      - ryjones
+    members:
+      - jwagantall
+      - SeanBohan
+      - thelinuxfoundation
+  - name: sigvelis-maintainers
+    maintainers:
+      - superkimchi
+    members:
+      - JisuPark
+repositories:
+  - name: governance
+    teams:
+      lf-staff: maintain
+    visibility: public
+  - name: sigvelis
+    teams:
+      lf-staff: maintain
+      sigvelis-maintainers: maintain
+    visibility: public
