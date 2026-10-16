@@ -12,9 +12,15 @@ teams:
     members:
       - JisuPark
 repositories:
+  - name: .github
+    teams:
+      lf-staff: maintain
+      sigvelis-maintainers: maintain
+    visibility: public
   - name: governance
     teams:
       lf-staff: maintain
+      sigvelis-maintainers: maintain
     visibility: public
   - name: sigvelis
     teams:
